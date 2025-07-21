@@ -1,0 +1,26 @@
+[
+    {
+        "title" : "On the Floor",
+        "author" : "Jennifer Lopez",
+        "year" : "2001",
+        "genre" : "Pop"
+    },
+    {
+        "title" : "Hips Don't Lie",
+        "author" : "Mariah Carey",
+        "year" : "1995",
+        "genre" : "Pop"
+    },
+    {
+        "title" : "The one I love",
+        "author" : "REM",
+        "year" : "1992",
+        "genre" : "Alternative Rock"
+    },
+    {
+        "title" : "It's a shame",
+        "author" : "The Killers",
+        "year" : "2004",
+        "genre" : "Alternative Rock"
+    }
+]
