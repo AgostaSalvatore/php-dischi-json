@@ -37,5 +37,27 @@ require_once './functions.php';
         }
         ?>
     </div>
+
+    <div class="container mt-3">
+        <form action="./server.php" method="POST">
+            <div class="mb-3">
+                <label for="title" class="form-label">Titolo</label>
+                <input type="text" class="form-control" name="title" id="title">
+            </div>
+            <div class="mb-3">
+                <label for="author" class="form-label">Autore</label>
+                <input type="text" class="form-control" name="author" id="author">
+            </div>
+            <div class="mb-3">
+                <label for="year" class="form-label">Anno</label>
+                <input type="number" class="form-control" name="year" id="year">
+            </div>
+            <div class="mb-3">
+                <label for="genre" class="form-label">Genere</label>
+                <input type="text" class="form-control" name="genre" id="genre">
+            </div>
+            <button type="submit" class="btn btn-primary">Aggiungi</button>
+        </form>
+    </div>
 </body>
 </html>
